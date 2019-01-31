@@ -1,0 +1,52 @@
+.bar-block {
+    margin-top:100px;
+    width: 180px;
+    height:100%;
+    display: block;
+    text-align: left;
+    float: left;
+    position : fixed;
+    z-index: 1}
+
+.olive {
+    color:#ffff;
+    background-color:rgb(84, 138, 76)}
+
+.bar-item{
+    padding:6px;
+    float: left;
+    display: block
+} 
+    
+.pagetitle {
+    width: 100%;
+    height: 100px;
+    background-image: url(olives.jpeg);
+    background-size: 400px;
+    color:#ffff;
+    font-size: 25px;
+    text-align: center;
+    position: fixed; 
+    z-index: 1;
+}   
+
+.content {
+    position: absolute;
+    margin-top:100px;
+    margin-left:180px;
+}
+
+.wrapper{
+    position: absolute;
+    
+}
+
+.article{
+    border: olive solid;
+    padding: 15px;
+    margin: 20px
+}
+
+img {
+    width: 600px
+}
